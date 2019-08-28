@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!--Nav bar-->
+        <div class="topnav">
+            <!--Name Header-->
+            <h1>Aaron Jackson</h1>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <div class="navbar">
+            <!--Name Header-->
+            <h1>Aaron Jackson</h1>
+            <div class="dropdown">
+                <button class="dropbtn">Home
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <!-- Contact header -->
+            <h2>Contact</h2>
+            <hr>
+
+            <!-- Contact information form start -->
+            <form action="./contact.html" method="POST">
+                <!-- Contact name section -->
+                <div>
+                    <label for="contactName">Name</label>
+                    <br>
+                    <input type="text" name="name" id="contactName" value="John Smith">
+                </div>
+                <br>
+                <!-- Contact email section -->
+                <div>
+                    <label for="contactEmail">Email</label>
+                    <br>
+                    <input type="email" id="contactEmail" value="example@gmail.com">
+                </div>
+                <br>
+                <!-- Contact message section -->
+                <div>
+                    <label for="contactMessage">Message</label>
+                    <br>
+                    <textarea id="contactMessage" rows="10"></textarea>
+                </div>
+                <br>
+                <!-- Submit button -->
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer with copyright-->
+    <footer class="footerCopy">
+        <p>Copyright&copy;</p>
+    </footer>
+
+</body>
+
+</html>
